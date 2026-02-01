@@ -1,0 +1,2 @@
+This repository is a collection of leetcode problems and my solutions to them. I am focusing on the patterns within Data Structures and Algorithms.
+Each folder is a different pattern that is critical in learning the DSA patterns.
