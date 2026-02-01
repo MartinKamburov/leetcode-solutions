@@ -1,0 +1,23 @@
+Almost all backtracking problems can be broken down into these 4 steps:
+    1. Base Case
+
+    2. Choices
+
+    3. Constraints
+
+    4. Backtracking Step
+
+
+PseudoCode of Backtracking solutions:
+
+def backtrack(params):
+    if base_case_condition:
+        results.append(copy_of_solution)
+
+    for choice in choices:
+        if violates_constraints:
+            continue
+
+        make_choice
+        backtrack(updated_params)
+        undo_choice # backtracking step
