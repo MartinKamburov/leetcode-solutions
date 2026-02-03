@@ -1,0 +1,10 @@
+Combinations definition: is a way of selecting items from a collections, such that
+(unlike permutations) the order of selection does not matter
+    - Example: 
+        - 
+
+Permutation definition: permutation relates to the act of arranging all the 
+members of a set into some sequence or order
+    - Example: 
+        - set: [1, 2, 3]
+        - permutations of set are: [[1,2,3], [1,3,2], [3,1,2], [3,2,1]]
