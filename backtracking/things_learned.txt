@@ -1,10 +1,18 @@
 Combinations definition: is a way of selecting items from a collections, such that
-(unlike permutations) the order of selection does not matter
+(unlike permutations) the order of selection does not matter. **Order does not matter**
     - Example: 
-        - 
+        - set: [1, 2, 3]
+        - combinations of set are: [1, 2], [1, 3], [2, 3]
+    - Combinations are basically lazy permutations. They care about who is in the group,
+      but they don't care where they sit.
+    - Another example:
+        - Picking three people to be on a planning committee. If you swap their
+        seats, it's still the exact same committee.
 
 Permutation definition: permutation relates to the act of arranging all the 
-members of a set into some sequence or order
+members of a set into some sequence or order. **Order Matters**
     - Example: 
         - set: [1, 2, 3]
         - permutations of set are: [[1,2,3], [1,3,2], [3,1,2], [3,2,1]]
+    - Another example:
+        - Picking a President, Vice President, and Secretary. If you swap their roles, it's a different arrangement.
